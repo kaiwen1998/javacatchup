@@ -7,7 +7,7 @@ public class JavaHelloWorldProgram {
 	}
 	
 	static countSpaces(String string) {
-		int spaceCount = INPUT_STRING.replaceAll("[^ ]", "").length();
+		int spaceCount = string.replaceAll("[^ ]", "").length();
 		System.out.printlin(spaceCount);
 	}
 }
